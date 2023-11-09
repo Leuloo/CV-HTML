@@ -10,6 +10,7 @@
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="css/style.css" />
     <style>
       table caption,
       table thead {
@@ -17,10 +18,19 @@
         visibility: hidden;
       }
     </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <header>
-      <h1>Lilou Martin</h1>
+      <section class="lilou">
+        <h1>Lilou Martin</h1>
+      </section>
       <img src="lilou.jpg" alt= />
 
       <p>
@@ -33,10 +43,10 @@
       </p>
     </header>
 
-    <section>
+    <section class="Formation">
       <h2>Formation</h2>
 
-      <h3>2023-2026 Normandie Web School</h3>
+      <h3 class="dates">2023-2026 Normandie Web School</h3>
 
       <a href="https://normandiewebschool.fr/" target="_blank"
         >Normandie Web School</a
@@ -49,7 +59,9 @@
         <li>Création de sites internet</li>
       </ul>
 
-      <h3>2022-2023 Université de Picardie Jules Vernes, Beauvais</h3>
+      <h3 class="dates">
+        2022-2023 Université de Picardie Jules Vernes, Beauvais
+      </h3>
       <a
         href="https://www.u-picardie.fr/ufr/antenne-de-beauvais/accueil/antenne-universitaire-de-beauvais-377992.kjsp"
         target="_blank"
@@ -57,7 +69,7 @@
       >
       <p>Licence LLCER Anglais-espagnol</p>
 
-      <h3>2021-2022 Lycée Paul Langevin</h3>
+      <h3 class="dates">2021-2022 Lycée Paul Langevin</h3>
       <a href="https://paul-langevin-beauvais.ac-amiens.fr/" target="_blank"
         >Lycée Paul Langevin</a
       >
@@ -68,11 +80,11 @@
       </p>
     </section>
 
-    <section>
-      <h2>Expériences professionnelles</h2>
+    <section class="Formation">
+      <h2 class="dates">Expériences professionnelles</h2>
       <a href="https://www.cariwood.fr/" target="_blank">Cariwood</a>
 
-      <h3>Ete 2023 Agent d'acceuil</h3>
+      <h3 class="dates">Ete 2023 Agent d'acceuil</h3>
       <ul>
         <li>Relation client</li>
         <li>
@@ -82,7 +94,7 @@
         <li>Travail d’équipe</li>
       </ul>
 
-      <h3>2023 Agent Administratif</h3>
+      <h3 class="dates">2023 Agent Administratif</h3>
       <a href="https://blacourt.fr/" target="_blank">Mairie de Blacourt </a>
       <ul>
         <li>Gestion des documents</li>
@@ -90,7 +102,7 @@
         <li>Travail aux archives</li>
       </ul>
 
-      <h3>2020-2023 Traductrice bénévole</h3>
+      <h3 class="dates">2020-2023 Traductrice bénévole</h3>
       <strong> Sur le site de streaming:</strong>
       <a href="https://www.viki.com">Viki.com</a>
       <ul>
@@ -101,7 +113,7 @@
       </ul>
     </section>
 
-    <section>
+    <section class="Formation">
       <h2>Passions</h2>
       <ul>
         <li>Couture (crochet, tricot)</li>
@@ -111,7 +123,7 @@
       </ul>
     </section>
 
-    <section>
+    <section class="Formation">
       <h2>Informations</h2>
       <ul>
         <li>Possession du permis B ainsi que d’un véhicule</li>
@@ -136,31 +148,33 @@
       </ul>
     </section>
 
-    <h2>Compétences</h2>
-    <table>
-      <caption>
-        Tableau de compétences
-      </caption>
-      <thead></thead>
-      <tbody>
-        <tr>
-          <td>Photoshop</td>
-          <td>⭐⭐⭐</td>
-        </tr>
+    <section id="Formation">
+      <h2>Compétences</h2>
+      <table>
+        <caption>
+          Tableau de compétences
+        </caption>
+        <thead></thead>
+        <tbody>
+          <tr>
+            <td>Photoshop</td>
+            <td>⭐⭐⭐</td>
+          </tr>
 
-        <tr>
-          <td>Figma</td>
-          <td>⭐</td>
-        </tr>
-        <tr>
-          <td>Indesign</td>
-          <td>⭐⭐</td>
-        </tr>
-        <tr>
-          <td>Illustrator</td>
-          <td>⭐⭐</td>
-        </tr>
-      </tbody>
-    </table>
+          <tr>
+            <td>Figma</td>
+            <td>⭐</td>
+          </tr>
+          <tr>
+            <td>Indesign</td>
+            <td>⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Illustrator</td>
+            <td>⭐⭐</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
   </body>
 </html>

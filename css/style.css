@@ -1,0 +1,29 @@
+header {
+  background-color: #d7c1aa;
+  font-family: "Lato", sans-serif;
+}
+* #lilou {
+  font-family: "Raleway", sans-serif;
+}
+.Formation h2 {
+  background-color: #d6c2ad;
+}
+h3.dates {
+  background-color: #e5d3c6;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: #f5ebe0;
+  font-family: "Lato", sans-serif;
+}
+
+body a:link {
+  color: #a86a48;
+}
+body a:visited {
+  color: #a86a48;
+}
