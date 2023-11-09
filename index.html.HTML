@@ -17,6 +17,16 @@
         height: 0;
         visibility: hidden;
       }
+      .center-text {
+        text-align: center;
+      }
+      .conteneur {
+        display: flex;
+        align-items: center;
+      }
+      .texte {
+        margin-left: 20px;
+      }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,14 +39,12 @@
   <body>
     <header>
       <section class="lilou">
-        <h1>Lilou Martin</h1>
+        <h1 class="center-text">Lilou Martin</h1>
       </section>
-      <img src="lilou.jpg" alt= />
+      <img src="lilou.jpg" alt="" height="" width="150" />
 
       <p>
         Je suis une jeune étudiante de première année à la Normandie Web School.
-      </p>
-      <p>
         Actuellement en bachelor “Chef de projet digital”, je suis à la
         recherche d’une alternance en communication graphique a partir de
         septembre 2024.
@@ -148,7 +156,7 @@
       </ul>
     </section>
 
-    <section id="Formation">
+    <section class="Formation">
       <h2>Compétences</h2>
       <table>
         <caption>
@@ -158,7 +166,7 @@
         <tbody>
           <tr>
             <td>Photoshop</td>
-            <td>⭐⭐⭐</td>
+            <td>⭐⭐</td>
           </tr>
 
           <tr>
@@ -171,6 +179,10 @@
           </tr>
           <tr>
             <td>Illustrator</td>
+            <td>⭐⭐</td>
+          </tr>
+          <tr>
+            <td>HTML/CSS</td>
             <td>⭐⭐</td>
           </tr>
         </tbody>

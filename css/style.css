@@ -2,7 +2,7 @@ header {
   background-color: #d7c1aa;
   font-family: "Lato", sans-serif;
 }
-* #lilou {
+h1.center-text {
   font-family: "Raleway", sans-serif;
 }
 .Formation h2 {
@@ -10,12 +10,17 @@ header {
 }
 h3.dates {
   background-color: #e5d3c6;
+  color: #582f0e;
 }
 
 h2 {
   font-family: "Raleway", sans-serif;
+  color: #582f0e;
 }
 
+h4 {
+  background-color: #f5ebe0;
+}
 body {
   background-color: #f5ebe0;
   font-family: "Lato", sans-serif;
@@ -26,4 +31,15 @@ body a:link {
 }
 body a:visited {
   color: #a86a48;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+li::before {
+  display: flex;
+  content: "‣";
+  gap: inline-block;
 }
