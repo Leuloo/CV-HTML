@@ -1,28 +1,7 @@
-header {
-  background-color: #d7c1aa;
-  font-family: "Lato", sans-serif;
-}
-h1.center-text {
-  font-family: "Raleway", sans-serif;
-}
-.Formation h2 {
-  background-color: #d6c2ad;
-}
-h3.dates {
-  background-color: #e5d3c6;
-  color: #582f0e;
-}
-
-h2 {
-  font-family: "Raleway", sans-serif;
-  color: #582f0e;
-}
-
-h4 {
-  background-color: #f5ebe0;
-}
+/*  bases */
 body {
   background-color: #f5ebe0;
+  color: #582f0e;
   font-family: "Lato", sans-serif;
 }
 
@@ -33,6 +12,32 @@ body a:visited {
   color: #a86a48;
 }
 
+/* Heading */
+h1.center-text {
+  font-size: 50px;
+  font-family: "Lora", serif;
+}
+
+h3 {
+  background-color: #e5d3c6;
+  color: #582f0e;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: #582f0e;
+  background-color: #d6c2ad;
+}
+
+h2.color {
+  background-color: #e5d3c6;
+}
+
+h4 {
+  background-color: #f5ebe0;
+}
+
+/* listes */
 li {
   display: flex;
   flex-direction: row;
@@ -42,4 +47,36 @@ li::before {
   display: flex;
   content: "‣";
   gap: inline-block;
+}
+
+header {
+  font-family: "Lato", sans-serif;
+}
+
+section {
+  padding: 1rem;
+}
+
+/* Lilou */
+.lilou img {
+  display: block;
+  margin-inline: auto;
+  border-radius: 45%;
+}
+
+/* Content columns */
+.content {
+  display: flex;
+  max-width: 720px;
+  margin: auto;
+  border: 3px solid #582f0e;
+}
+
+.content .col-1 {
+  flex: 33%;
+  background-color: #d6c2ad;
+}
+
+.content .col-2 {
+  flex: 100%;
 }
